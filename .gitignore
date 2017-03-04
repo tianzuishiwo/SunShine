@@ -1,9 +1,57 @@
-*.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+# 所有以~结尾的目录或文件忽略，如：office文件打开时，会生成一个隐藏的此文件
+*~
+
+# 所有.DS_Store目录或文件忽略，MAC专用
 .DS_Store
-/build
-/captures
+
+# 所有.iml结尾的目录或文件忽略
+*.iml
+
+# 所有.gradle目录或文件忽略
+.gradle
+
+# 所有.idea目录或文件忽略
+.idea
+
+# 所有build目录或文件忽略
+build
+
+# 所有.externalNativeBuild目录或文件忽略
 .externalNativeBuild
+
+# 当前目录下的local.properties目录或文件忽略
+/local.properties
+
+# 当前目录下的captures目录或文件忽略
+/captures
+
+# 当前目录下的key目录或文件忽略
+/extra/key
+
+# 当前目录下的apk目录或文件忽略
+#/extra/apk
+
+# 当前目录下的shell目录或文件忽略
+/extra/shell
+
+# 当前目录下的file目录或文件忽略
+/extra/file
+
+# 当前目录下的doc目录或文件忽略
+#/extra/doc
+/extra/doc/md_help.md
+
+# 所有*.apk结尾的目录或文件忽略
+#*.apk
+
+# 所有*.paw结尾的目录或文件忽略
+#*.paw
+
+# 所有*.json结尾的目录或文件忽略
+#*.json
+
+# 所有*.txt结尾的目录或文件忽略
+/*.txt
+
+# 当前目录*.sh结尾的目录或文件忽略
+/*.sh
